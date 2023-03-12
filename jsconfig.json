@@ -3,7 +3,7 @@
     "paths": {
       "@/*": ["./*"],
       "assets/images/svg/*": ["./public/assets/images/svg/*"],
-      "assets/images/blob/*": ["./public/assets/images/blob/*"],
+      "assets/images/blobs/*": ["./public/assets/images/blobs/*"],
       "assets/images/webp/*": ["./public/assets/images/webp/*"],
     }
   }
