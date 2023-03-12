@@ -27,7 +27,7 @@ const Header = () => {
 
   return (
     <nav className="">
-      <div className={`fixed w-full top-0 z-20 ${scrolled ? 'bg-white/80 backdrop-blur-[0.8rem]' : ''}`}>
+      <div className={`fixed w-full top-0 z-20 transition duration-500 delay-200 ${scrolled ? 'bg-white/80 backdrop-blur-[0.6rem] shadow-sm' : ''}`}>
         <div className="px-[0.8rem] py-3 md:px-8 md:py-5 grid md:grid-cols-[minmax(0,1fr),auto,minmax(0,1fr)] items-center z-10 relative">
           <Link href='/'>
             <div className="flex gap-2 justify-start items-center">

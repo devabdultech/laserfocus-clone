@@ -1,5 +1,6 @@
 import Header from '@/components/layouts/Header'
 import MainPage from '@/components/layouts/MainPage'
+import ProductDisplay from '@/components/layouts/ProductDisplay'
 import Head from 'next/head'
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <main className=''>
         <Header />
         <MainPage />
+        <ProductDisplay />
       </main>
     </>
   )
