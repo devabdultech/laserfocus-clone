@@ -14,7 +14,7 @@ const MainPage = () => {
   return (
     <section className=''>
       <div className='w-[90vw] md:w-[85vw] xl:w-[80vw] max-w-[66rem] mx-auto flex flex-col-reverse md:grid gap-1 md:gap-4 md:grid-cols-2 items-center'>
-        <div className='text-center md:text-left md:row-start-1 md:-mr-24 md:py-16 lg:ml-20 lg:z-10 grid gap-12'>
+        <div className='text-center md:text-left md:row-start-1 md:-mr-24 md:py-16 lg:ml-20 md:z-10 grid gap-12'>
           <h1 className='font-libre text-[2.3rem] font-bold md:text-[3rem] lg:text-[3.5rem] text-primary'>Make Salesforce easy to use</h1>
           <p className='font-inter text-[1.5rem] font-light text-primary'>Laserfocus makes your Salesforce process as simple as possible, but not simpler. Made for data-driven GTM teams who dont want to sacrifice efficiency.</p>
 
