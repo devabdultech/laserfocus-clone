@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <nav className="">
-      <div className="sticky top-0 z-10">
+      <div className="sticky top-0 z-20">
         <div className="px-[0.8rem] py-3 md:px-8 md:py-5 grid md:grid-cols-[minmax(0,1fr),auto,minmax(0,1fr)] items-center z-10 relative">
           <Link href='/'>
             <div className="flex gap-2 justify-start items-center">
