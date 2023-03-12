@@ -1,4 +1,5 @@
 import Header from '@/components/layouts/Header'
+import MainPage from '@/components/layouts/MainPage'
 import Head from 'next/head'
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <main className=''>
         <Header />
+        <MainPage />
       </main>
     </>
   )
