@@ -4,14 +4,30 @@ import Button from "../ui/Button"
 import CTA from "../ui/CTA"
 import MobileNav from "../ui/MobileNav"
 import Link from "next/link"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
 const Header = () => {
   const [toggle, setToggle] = useState(false)
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 0;
+      if (isScrolled !== scrolled) {
+        setScrolled(isScrolled);
+      }
+    };
+
+    document.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      document.removeEventListener("scroll", handleScroll);
+    };
+  }, [scrolled]);
 
   return (
     <nav className="">
-      <div className="sticky top-0 z-20">
+      <div className={`fixed w-full top-0 z-20 ${scrolled ? 'bg-white/80 backdrop-blur-[0.8rem]' : ''}`}>
         <div className="px-[0.8rem] py-3 md:px-8 md:py-5 grid md:grid-cols-[minmax(0,1fr),auto,minmax(0,1fr)] items-center z-10 relative">
           <Link href='/'>
             <div className="flex gap-2 justify-start items-center">
