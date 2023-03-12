@@ -27,7 +27,7 @@ const MainPage = () => {
           </div>
         </div>
 
-        <div className='md:col-start-2 md:mb-auto max-h-[60vh] md:max-h-screen w-full h-full mx-auto'><video id="myVideo" src='/videos/marbles-on-helix-slide.mp4' autoPlay loop playsInline/></div>
+        <div className='md:col-start-2 md:mb-auto max-h-[60vh] md:max-h-screen w-full h-full mx-auto'><video id="myVideo" src='/videos/marbles-on-helix-slide.mp4' autoPlay loop playsInline preload='auto'/></div>
       </div>
 
     </section>
