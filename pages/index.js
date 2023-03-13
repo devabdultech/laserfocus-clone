@@ -1,3 +1,4 @@
+import Companies from '@/components/layouts/Companies'
 import Header from '@/components/layouts/Header'
 import MainPage from '@/components/layouts/MainPage'
 import ProductDisplay from '@/components/layouts/ProductDisplay'
@@ -16,6 +17,7 @@ export default function Home() {
         <Header />
         <MainPage />
         <ProductDisplay />
+        <Companies />
       </main>
     </>
   )
