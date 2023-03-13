@@ -19,7 +19,7 @@ const MainPage = () => {
           <p className='font-inter text-[1.5rem] font-light text-primary'>Laserfocus makes your Salesforce process as simple as possible, but not simpler. Made for data-driven GTM teams who dont want to sacrifice efficiency.</p>
 
           <div className='flex flex-col justify-center items-center gap-6 pb-16 font-inter lg:justify-start lg:items-start '>
-            <div className=''><CTA text='Sign up for free' /></div>
+            <div className=''><CTA text='Sign up for free' arrow={true} /></div>
             <div className='flex items-center gap-2 text-secondary'>
               <Image src={wallet} alt='wallet' />
               <span>No credit card needed</span>

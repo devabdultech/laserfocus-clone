@@ -66,7 +66,7 @@ const Header = () => {
       </div>
 
       {toggle && 
-        <div className="absolute top-0 left-0 w-full h-full overflow-y-scroll overscoll-x-hidden lg:hidden">
+        <div className="fixed top-0 left-0 w-full h-full overflow-y-scroll overscoll-x-hidden lg:hidden">
           <MobileNav />
         </div>
       }

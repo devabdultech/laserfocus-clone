@@ -42,11 +42,19 @@ module.exports = {
           '50%': { backgroundColor: '#E3342F' },
           '75%': { backgroundColor: '#C53030' },
           '100%': { backgroundColor: '#2E7CF4' },
+        },
+        slide: {
+          '0%': { transform: 'translateX(0px)' },
+          '25%': { transform: 'translateX(25%)' },
+          '50%': { transform: 'translateX(50%)' },
+          '75%': { transform: 'translateX(75%)' },
+          '100%': { transform: 'translateX(100%)' },
         }
       },
       animation: {
         gradientbg: 'gradientbg 7s ease-in-out infinite',
-      }
+        slide: 'slide 4s ease-in-out infinite'
+      },
     },
   },
   plugins: [],

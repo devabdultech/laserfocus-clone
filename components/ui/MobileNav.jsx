@@ -8,7 +8,7 @@ import blob4 from "assets/images/blobs/blob4.svg"
 
 const MobileNav = () => {
   return (
-    <div className='z-30 bg-white h-screen pt-16'>
+    <div className='w-full z-30 bg-white h-screen pt-16'>
         <div className='w-[90vw] md:w-[85vw] xl:w-[80vw] max-w-[66rem] mx-auto'>
             <div className='overflow-y-scroll px-1 -mx-1 h-full overscroll-contain'>
                 <div className='grid gap-6'>
