@@ -53,7 +53,7 @@ module.exports = {
       },
       animation: {
         gradientbg: 'gradientbg 7s ease-in-out infinite',
-        slide: 'slide 4s ease-in-out infinite'
+        slide: 'slide 1s ease-in-out infinite'
       },
     },
   },
