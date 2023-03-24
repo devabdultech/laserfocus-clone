@@ -1,11 +1,11 @@
 import Image from 'next/image';
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 
 import CTA from '../ui/CTA';
 import wallet from "assets/images/svg/wallet.svg"
 
 const MainPage = () => {
-
+  
   useEffect(() => {
     const video = document.getElementById('myVideo');
     video.play();
