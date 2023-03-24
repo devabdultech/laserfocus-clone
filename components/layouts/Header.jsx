@@ -49,12 +49,12 @@ const Header = () => {
             {!toggle && <CTA href='' text='Try for free'/>}
             
             {toggle ? (
-              <button onClick={() => setToggle(!toggle)} type="button" aria-expanded="true" className="group w-[1.9444rem] h-[1.9444rem] rounded-[0.7rem] bg-blue-100 grid place-content-center gap-[4px] transition-colors lg:hidden" aria-controls="lf-nav-bar-mobile-menu">
+              <button onClick={() => setToggle(!toggle)} type="button" aria-expanded="true" className="group w-[2.2rem] h-[2.2rem] rounded-[0.7rem] bg-blue-100 grid place-content-center gap-[4px] transition-colors lg:hidden" aria-controls="lf-nav-bar-mobile-menu">
                 <div className="w-[14px] h-[2px] bg-blue-500 rounded-full col-start-1 row-start-1 transition rotate-45"></div>
                 <div className="w-[14px] h-[2px] bg-blue-500 rounded-full col-start-1 row-start-1 transition -rotate-45"></div>
               </button>
               ) : (
-              <button onClick={() => setToggle(!toggle)} type="button" aria-expanded="false" className="group w-[1.9444rem] h-[1.9444rem] rounded-[0.7rem] bg-blue-100 grid place-content-center gap-[4px] transition-colors lg:hidden cursor-pointer">
+              <button onClick={() => setToggle(!toggle)} type="button" aria-expanded="false" className="group w-[2.2rem] h-[2.2rem] rounded-[0.7rem] bg-blue-100 grid place-content-center gap-[4px] transition-colors lg:hidden cursor-pointer">
                 <div className="w-[14px] h-[2px] bg-blue-500 rounded-full col-start-1 row-start-1 transition translate-y-[-0.1875rem]"></div>
                 <div className="w-[14px] h-[2px] bg-blue-500 rounded-full col-start-1 row-start-1 transition translate-y-[0.1875rem]"></div>
               </button>

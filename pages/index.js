@@ -1,6 +1,7 @@
 import Companies from '@/components/layouts/Companies'
 import Header from '@/components/layouts/Header'
 import MainPage from '@/components/layouts/MainPage'
+import OtherSections from '@/components/layouts/OtherSections'
 import ProductDisplay from '@/components/layouts/ProductDisplay'
 import Head from 'next/head'
 
@@ -18,6 +19,7 @@ export default function Home() {
         <MainPage />
         <ProductDisplay />
         <Companies />
+        <OtherSections />
       </main>
     </>
   )
